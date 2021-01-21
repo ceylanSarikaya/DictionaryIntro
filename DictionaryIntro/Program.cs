@@ -7,10 +7,10 @@ namespace DictionaryIntro
     {
         static void Main(string[] args)
         {
-            MyDictionary<int, string> cities2 = new MyDictionary<int, string>();
-            cities2.Add(34, "Istanbul");
-            cities2.Add(06, "Ankara");
-            cities2.Add(07, "Antalya");
+            MyDictionary<int, string> cities = new MyDictionary<int, string>();
+            cities.Add(34, "Istanbul");
+            cities.Add(06, "Ankara");
+            cities.Add(07, "Antalya");
           
         }
     }
